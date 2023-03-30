@@ -1,0 +1,12 @@
+/* 태블릿 */
+@media screen and (max-width:1024px) {
+    main .bnr video {height:100%; width: auto;}
+    #header_bg header nav {display:none;}
+    #gallery_wrap .gallery_g .gallery5 {display:none;}
+}
+/* 모바일 */
+@media screen and (max-width:768px) {
+    #gallery_wrap .gallery_g .gallery1,
+    #gallery_wrap .gallery_g .gallery2,
+    #gallery_wrap .gallery_g .gallery5 {display: none;}
+}
